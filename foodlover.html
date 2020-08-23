@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD LOVER</title>
+  <style>
+    
+    *{
+    margin: 0;
+    padding: 0;
+}
+/* typography */
+h1{
+    font-family: sans-serif;
+    color:beige
+}
+h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color:#353535;
+}
+h3 span{
+    color:green;
+}
+h1 span{
+    color:red;
+}
+.post1 h3{
+    margin-left: 20px;
+    
+}
+
+
+
+
+
+
+/* layout*/
+header{
+    background: #404555;
+    padding: 1rem;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+   
+
+}
+.container2{
+ 
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width: 68%;
+}
+aside{
+    width:26%;
+}
+nav ul{
+   
+    display: flex;
+    list-style: none;
+    
+    
+}
+nav li{
+   margin-left: 2px;
+}
+nav a{
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color:white;
+    box-shadow: 0px 0px 35px #0000002c;
+     transition: 2s ease;
+}
+nav a:hover{
+    color: gray;
+   background: white;
+}
+.post1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+    border-radius: 10px;
+       box-shadow: 0px 0px 5px #0000002c;
+           transition:.3s ease;
+	          
+}
+.post1:hover{
+ 
+     box-shadow: 0px 0px 35px #0000002c;
+	   
+}
+.post1 img{
+    width:90%;
+    display: block;
+     padding: 20px;
+
+   margin: 25px auto;
+
+    
+}
+
+.post1 p{
+    padding:1rem;
+}
+
+
+
+
+
+/* responsive */
+@media (max-width:815px) {
+    .container2{
+        display: flex;
+        flex-direction: column;
+     
+    }
+   
+ 
+    nav ul{
+        margin: 1rem 0;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        width:100%;
+    }
+    aside{
+        width:100%;
+    }
+}
+    </style>
+</head>
+<body>
+<header>
+<div class="container container2">
+    
+        <div class="title">
+           <h1><span>Food</span> Lovers</h1>
+           <h3>Heaven of all foodies</h3>
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"> HOME</a></li>
+                <li><a href="#"> ABOUT</a></li>
+                <li><a href="#"> CONTACT</a></li>
+            </ul>
+        </nav>
+   
+</div>
+ </header>
+<div class="container container3">
+   <main>
+    <div class="post1">
+        <img src="f4.jpg">
+        <h3><span>Burger!</span> First love of all foodie</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam animi sapiente consectetur id. Aliquam, quasi esse, eaque, quaerat libero delectus aspernatur eveniet tempore suscipit vitae in, minus. Reprehenderit ab, fuga eligendi aliquam officia debitis!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dicta consectetur aspernatur quidem facilis velit porro, et modi cum maxime.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum nisi incidunt, mollitia deleniti aliquam molestiae illum saepe nobis eveniet facere, quo dolorem, asperiores corrupti minus suscipit. Blanditiis, tempora! Eligendi, laborum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod odit, dolorem eos. Tempora eligendi ipsam repudiandae. Maxime maiores harum sed laborum officia, minima ipsam in sapiente officiis aliquid deserunt, voluptates autem, quasi quod amet ducimus dignissimos odio facere consequatur illo ex nobis quo incidunt. Tempora incidunt nostrum eum, modi perspiciatis?
+        </p>
+    </div>
+    <div class="post1">
+         <img src="f1.jpg">
+         <h3><span>Pizza!</span> loved by all</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam animi sapiente consectetur id. Aliquam, quasi esse, eaque, quaerat libero delectus aspernatur eveniet tempore suscipit vitae in, minus. Reprehenderit ab, fuga eligendi aliquam officia debitis!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dicta consectetur aspernatur quidem facilis velit porro, et modi cum maxime.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum nisi incidunt, mollitia deleniti aliquam molestiae illum saepe nobis eveniet facere, quo dolorem, asperiores corrupti minus suscipit. Blanditiis, tempora! Eligendi, laborum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod odit, dolorem eos. Tempora eligendi ipsam repudiandae. Maxime maiores harum sed laborum officia, minima ipsam in sapiente officiis aliquid deserunt, voluptates autem, quasi quod amet ducimus dignissimos odio facere consequatur illo ex nobis quo incidunt. Tempora incidunt nostrum eum, modi perspiciatis?
+        </p>
+
+    </div>
+    <div class="post1">
+         <img src="f3.jpg">
+         <h3><span>Donut!</span> Just yumm..</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam animi sapiente consectetur id. Aliquam, quasi esse, eaque, quaerat libero delectus aspernatur eveniet tempore suscipit vitae in, minus. Reprehenderit ab, fuga eligendi aliquam officia debitis!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dicta consectetur aspernatur quidem facilis velit porro, et modi cum maxime.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum nisi incidunt, mollitia deleniti aliquam molestiae illum saepe nobis eveniet facere, quo dolorem, asperiores corrupti minus suscipit. Blanditiis, tempora! Eligendi, laborum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod odit, dolorem eos. Tempora eligendi ipsam repudiandae. Maxime maiores harum sed laborum officia, minima ipsam in sapiente officiis aliquid deserunt, voluptates autem, quasi quod amet ducimus dignissimos odio facere consequatur illo ex nobis quo incidunt. Tempora incidunt nostrum eum, modi perspiciatis?
+        </p>
+
+    </div>
+    </main>
+    <aside>
+        <div class="post1">
+             <img src="f2.jpg">
+         <h3>Cola</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam animi sapiente consectetur id. Aliquam, quasi esse, eaque, quaerat libero delectus aspernatur eveniet tempore suscipit vitae in, minus. Reprehenderit ab, fuga eligendi aliquam officia debitis!
+           
+        </p>
+
+
+        </div>
+        <div class="post1"> <img src="f0.jpg">
+         <h3>Margaritas</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam animi sapiente consectetur id. Aliquam, quasi esse, eaque, quaerat libero delectus aspernatur eveniet tempore suscipit vitae in, minus. Reprehenderit ab, fuga eligendi aliquam officia debitis!
+           
+        </p>
+
+</div>
+        <div class="post1"> <img src="f5.jpg">
+         <h3>Manhattan cocktail</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam animi sapiente consectetur id. Aliquam, quasi esse, eaque, quaerat libero delectus aspernatur eveniet tempore suscipit vitae in, minus. Reprehenderit ab, fuga eligendi aliquam officia debitis!
+ 
+        </p>
+
+</div>
+        <div class="post1"> <img src="f6.jpg">
+         <h3>lemon juice</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam animi sapiente consectetur id. Aliquam, quasi esse, eaque, quaerat libero delectus aspernatur eveniet tempore suscipit vitae in, minus. Reprehenderit ab, fuga eligendi aliquam officia debitis!
+
+        </p>
+
+</div>
+        
+    </aside>
+</div>
+<footer> </footer>
+</body>
+</html>
